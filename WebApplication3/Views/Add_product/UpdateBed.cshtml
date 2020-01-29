@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "UpdateBed";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@model WebApplication3.Models.AddproductModel
+
+@helper button(string type, string value)
+{
+    <input type="@type" value="@value" class="btn btn-primary btn-group-lg" />
+}
+
+
+
+
+
+<html>
+
+@using (Html.BeginForm("UpdateBed", "Add_product", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="form-group row">
+        <div class="col-md-11 mb-3">
+            @Html.Label("Product  Name")
+            @Html.TextBoxFor(x => x.productName, new { @Class = "form-control", placeholder = "Product Name" })
+            @Html.HiddenFor(x=>x.productID)
+        </div>
+        <div class="col-md-11 mb-3">
+        </div>
+        <div class="col-md-11 mb-10">
+            @Html.Label("Product Price")
+            @Html.TextBoxFor(x => x.productprice, new { @Class = "form-control", placeholder = "Product Price" })
+        </div>
+        <div class="col-md-11 mb-3">
+        </div>
+        <div class="col-md-11 mb-3">
+        </div>
+    </div>
+                        <div class="col-md-11 mb-3">
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-sm-12">
+                                @button("submit", "Update")
+                            </div>
+                            <label>@ViewBag.Message</label>
+                        </div>
+}
+
+
+
+    </html>
+

@@ -1,0 +1,25 @@
+USE [Final_DBMS_Project]
+GO
+
+/****** Object:  Table [dbo].[Add_to_cart]    Script Date: 11/28/2019 2:31:56 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[Add_to_cart](
+	[Name] [varchar](50) NOT NULL,
+	[Price] [varchar](50) NOT NULL,
+	[picture] [varchar](50) NOT NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+

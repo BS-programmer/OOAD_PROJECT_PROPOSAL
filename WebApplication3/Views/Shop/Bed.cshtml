@@ -1,0 +1,36 @@
+﻿
+@model List<WebApplication3.Models.AddproductModel>
+@{
+    ViewBag.Title = "pro";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+       <!-- ##### Single Widget ##### -->
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                </div>
+                <div class="card-body">
+                   
+                        @foreach (var item in Model)
+                        {
+                            <div class="row" style="width:890px;">
+                                <div class="col-lg-12 col-sm-12">
+                                    <div class="col-lg-9 col-sm-9">
+                                        <img src="@Url.Content(item.productimageURL)" style="width:850px;" />
+                                    </div>
+                                    <div class="col-lg-3 col-sm-3">
+                                        @item.productName
+                                        @item.productprice
+                                        @item.productID
+
+                                    </div>
+                                </div>
+                                <li class="btn amado-btn mb-15">@Html.ActionLink("Update Product", "UpdateBed", "Add_product", new { Pid=@item.productID }, new { @Class = "btn amado-btn mb-15" })</li>
+                                <li></li>
+                                <li class="btn amado-btn mb-15">@Html.ActionLink("Delete Product", "DeleteBed", "Add_product", new { Pid = @item.productID }, new { @Class = "btn amado-btn mb-15" })</li>    
+                            </div>
+                                }
+                            </div>
+                </div>
+                    <li class="btn amado-btn mb-15">@Html.ActionLink("Add Product", "add_product", "Add_product", null, new { @Class = "btn amado-btn mb-15" })</li>
+                
+           
