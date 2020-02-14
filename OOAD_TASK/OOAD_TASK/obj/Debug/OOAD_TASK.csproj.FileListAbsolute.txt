@@ -1,0 +1,6 @@
+C:\Users\BINARY COMPUTERS\Documents\Visual Studio 2017\Projects\OOAD_TASK\OOAD_TASK\bin\Debug\OOAD_TASK.exe.config
+C:\Users\BINARY COMPUTERS\Documents\Visual Studio 2017\Projects\OOAD_TASK\OOAD_TASK\bin\Debug\OOAD_TASK.exe
+C:\Users\BINARY COMPUTERS\Documents\Visual Studio 2017\Projects\OOAD_TASK\OOAD_TASK\bin\Debug\OOAD_TASK.pdb
+C:\Users\BINARY COMPUTERS\Documents\Visual Studio 2017\Projects\OOAD_TASK\OOAD_TASK\obj\Debug\OOAD_TASK.csprojResolveAssemblyReference.cache
+C:\Users\BINARY COMPUTERS\Documents\Visual Studio 2017\Projects\OOAD_TASK\OOAD_TASK\obj\Debug\OOAD_TASK.exe
+C:\Users\BINARY COMPUTERS\Documents\Visual Studio 2017\Projects\OOAD_TASK\OOAD_TASK\obj\Debug\OOAD_TASK.pdb
